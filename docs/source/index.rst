@@ -1,10 +1,8 @@
-Welcome to Lumache's documentation!
+Welcome to TriTan's documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**TriTan** is a Python package for integrative analysis of single cell multi-omics data.
+It is an efficient triple non-negative matrix factorisation method and offers a *simple* and *intuitive* API.
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
