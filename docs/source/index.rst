@@ -3,9 +3,10 @@ Welcome to TriTan's documentation!
 
 **TriTan** is a Python package for integrative analysis of single cell multi-omics data.
 It is an efficient triple non-negative matrix factorisation method and offers a *simple* and *intuitive* API.
-Lumache has its documentation hosted on Read the Docs.
+TriTan has its documentation hosted on Read the Docs.
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
+Check out the :doc:`tutorials` section for jupyter tutorials.
 
 .. note::
 
@@ -17,4 +18,5 @@ Contents
 .. toctree::
 
    usage
+   tutorials
    api
