@@ -1,4 +1,4 @@
-TriTan tutorials
+Tutorials
 =================================
 
 .. toctree::
