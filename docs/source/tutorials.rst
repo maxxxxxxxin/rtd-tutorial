@@ -2,5 +2,5 @@ Tutorials
 =========
 
 .. toctree::
-     Introduction Tutorial <notebooks/intNMF_example>
+     Introduction Tutorial <notebooks/Cite_seq>
      Multiple examples (old) <notebooks/example_nmf>
