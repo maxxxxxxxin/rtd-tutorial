@@ -6,22 +6,11 @@ Usage
 Installation
 ------------
 
-To use sc_intNMF first install it using git clone (TODO work out how to have
-package installed with pip) but running the bash command below in the desired
-directory:
+To use Lumache, first install it using pip:
 
 .. code-block:: console
 
-    (.venv) $ git clone https://github.com/wmorgans/quick_intNMF
-
-sc_intNMF's only requirements are numpy, scipy, scikit-learn and matplotlib.
-So ensure it is run from a virtual environment with these packages. For example
-using conda:
-
-.. code-block:: console
-
-    (base) $ conda create --name int_nmf_env --file <path_to_quick_intNMF>/requirements.txt
-    (base) $ conda activate int_nmf_env
+    (.venv) $ pip install tritan
 
 Basic usage
 -----------
