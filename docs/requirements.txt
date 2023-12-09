@@ -7,6 +7,7 @@ ipython
 jupytext
 jupyter
 matplotlib
+hdbscan
 numpy
 numexpr
 scipy
