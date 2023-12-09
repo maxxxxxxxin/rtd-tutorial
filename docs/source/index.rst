@@ -17,5 +17,5 @@ Contents
 .. toctree::
 
    usage
-   Tutorials <tutorials>
+   tutorials <tutorials>
    api
