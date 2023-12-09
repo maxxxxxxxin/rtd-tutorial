@@ -27,6 +27,7 @@ Initialise a TriTan model:
 
     tritan = TriTan.TriTan()
 
+The input to TriTan is a MuData object.
 Train the model:
 
 .. code-block:: python
