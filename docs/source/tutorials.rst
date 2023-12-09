@@ -1,4 +1,4 @@
 .. toctree::
-     Introduction Tutorial <notebooks/Cite_seq>
+     tutorial <notebooks/Cite_seq>
 
 
