@@ -2,4 +2,4 @@
     :toctree: _autosummary
     :recursive:
 
-    nmf_models
+    tritan
