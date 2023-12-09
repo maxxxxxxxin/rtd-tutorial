@@ -45,7 +45,7 @@ Parameters
 
 n_modality ： the number of the modalities 
 
---
+-----------
 
 res_size : the resolution for the cell model selection with a value range from 0 to 1
 
