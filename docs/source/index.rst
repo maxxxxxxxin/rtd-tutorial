@@ -3,7 +3,7 @@
 
     Home page <self>
     Usage <usage>
-    Jupyter Tutorials <tutorials>
+    Tutorials <tutorials>
     readme
 
 Welcome to TriTan's documentation!
