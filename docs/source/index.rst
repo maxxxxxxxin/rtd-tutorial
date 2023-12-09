@@ -7,7 +7,7 @@
     API Reference <_autosummary/nmf_models>
     readme
 
-Welcome to sc_intNMF's documentation!
+Welcome to TriTan's documentation!
 =====================================
 
 
