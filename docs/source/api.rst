@@ -1,7 +1,5 @@
-API
-===
-
 .. autosummary::
-   :toctree: generated
+    :toctree: _autosummary
+    :recursive:
 
-   lumache
+    nmf_models
