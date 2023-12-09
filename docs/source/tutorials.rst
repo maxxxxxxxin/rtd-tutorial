@@ -2,5 +2,5 @@ Tutorials
 =========
 
 .. toctree::
-     Tutorial on scRNA-seq&scATAC-seq (PBMC-10K) <notebooks/Cite_seq>
-     Tutorial on Cite-seq <notebooks/Cite_seq>
+     Single-cell RNA-seq and ATAC-seq integration <notebooks/Cite_seq>
+     Cite-seq integration
