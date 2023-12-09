@@ -49,11 +49,17 @@ n_modality ： the number of the modalities
 
 res_size : the resolution for the cell model selection with a value range from 0 to 1
 
+-----------
+
 epoch : iteration times [must larger than 20]
+
+-----------
 
 n_component ：when precomputed = False, you can define the number of the svd components as:
 
 >>> svd = [#feature(mod1), #cell(mod1), #feature(mod2), #cell(mod2)]
+
+-----------
 
 svd_mod1 & svd_mod2 : when precomputed = True, the uses should input their precomputed svd matirces, for example:
 
