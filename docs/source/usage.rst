@@ -12,7 +12,7 @@ To use Lumache, first install it using pip:
 
     (.venv) $ pip install TriTan
 
-Basic usage
+Basic usages
 -----------
 
 Import TriTan as:
@@ -27,7 +27,7 @@ Initialise a TriTan model:
 
     tritan = TriTan.TriTan()
 
-Tran the model:
+Train the model:
 
 .. code-block:: python
 
