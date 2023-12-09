@@ -8,9 +8,11 @@ jupytext
 jupyter
 matplotlib
 numpy
+numexpr
 scipy
 scikit-learn
 matplotlib
 seaborn
 pandas
 muon
+umap
