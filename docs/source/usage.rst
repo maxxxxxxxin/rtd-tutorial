@@ -53,7 +53,8 @@ svd_mod1 & svd_mod2: when precomputed = True, the uses should input their precom
 
 .. code-block:: python
    u_rna, s_rna, v_rna = randomized_svd(X_gene,n_components=300, random_state=0)
-   u_atac, s_atac, v_atac = randomized_svd(X_atac,n_components=300, random_state=0)
+   
+u_atac, s_atac, v_atac = randomized_svd(X_atac,n_components=300, random_state=0)
    rna=[u_rna,v_rna]
    atac=[u_atac,v_atac]
    svd=[50,300,50,300]
