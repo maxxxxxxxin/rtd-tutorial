@@ -51,7 +51,7 @@ n_component ：when precomputed = False, you can define the number of the svd co
 
 >>> svd = [#feature(mod1), #cell(mod1), #feature(mod2), #cell(mod2)]
 
-svd_mod1 & svd_mod2: when precomputed = True, the uses should input their precomputed svd matirces, for example:
+svd_mod1 & svd_mod2 : when precomputed = True, the uses should input their precomputed svd matirces, for example:
 
 >>> u_rna, s_rna, v_rna = randomized_svd(X_gene,n_components=300, random_state=0)   
 >>> u_atac, s_atac, v_atac = randomized_svd(X_atac,n_components=300, random_state=0)
