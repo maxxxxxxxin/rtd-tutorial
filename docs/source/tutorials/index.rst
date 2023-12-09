@@ -1,8 +1,0 @@
-Tutorials
-=================================
-
-.. toctree::
-   :maxdepth: 2
-
-   pbmc10k/contents
-   cite-seq/contents
