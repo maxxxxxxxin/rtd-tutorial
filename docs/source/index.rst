@@ -10,10 +10,6 @@ Welcome to TriTan's documentation!
 =====================================
 
 
-**TriTan** is a python package for integrated analysis of single cell multiomic data.
+**TriTan** is a python package for the integrated analysis of single cell multiomic data.
 
 
-Contents
---------
-
-See API reference
