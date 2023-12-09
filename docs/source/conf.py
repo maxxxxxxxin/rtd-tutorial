@@ -17,9 +17,9 @@ sys.path.insert(0, os.path.abspath('..'))
 print(sys.path)
 # -- Project information -----------------------------------------------------
 
-project = 'sc_intNMF'
-copyright = '2022, william morgans'
-author = 'william morgans'
+project = 'TriTan'
+copyright = '2023, maxxxxxxxin'
+author = 'maxxxxxxxin'
 
 # The full version, including alpha/beta/rc tags
 release = '0.1'
