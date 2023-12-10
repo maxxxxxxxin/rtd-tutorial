@@ -19,7 +19,7 @@ Import TriTan as:
 
 .. code-block:: python
 
-   from TriTan import TriTan
+   import TriTan
 
 Initialise a TriTan model:
 
