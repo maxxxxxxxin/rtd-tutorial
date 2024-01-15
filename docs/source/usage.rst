@@ -39,7 +39,7 @@ Parameters
 
 .. code-block:: python
 
-    tritan = TriTan.TriTan( n_modalities = 2, resolution = 10, epoch =30, resolution = 0.6, precomputed = False, svd_mod1= None, svd_mod2 = None, sparse = False, n_component= [20,50,20,50])
+    tritan = TriTan.TriTan( n_modalities = 2, resolution = 10, epoch =30, resolution = 0.6, precomputed = False, svd_mod1= None, svd_mod2 = None, sparse = False, n_component= [20,50,20,50], tfidf = True, alpha = [1,1])
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -70,5 +70,13 @@ svd_mod1 & svd_mod2 : when precomputed = True, the uses should input their preco
 >>> svd=[50,300,50,300]
 >>> tritan = TriTan.TriTan(n_component = svd , precomputed = True, svd_mod1 = rna, svd_mod2 = atac)
 
+-----------
 
+tfidf : TF-IDF transformation on input data 
+
+-----------
+
+alpha : When tfidf = False, uses can input alpha to achieve scale balance across omics
+
+-----------
 
