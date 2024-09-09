@@ -44,12 +44,12 @@ Parameters
      - Description
    * - n_modality
      - The number of the modalities [default: 2]
-   * - res_size
-     - The resolution for the cell model selection with a value range from 0 to 1
-   * - epoch
-     - Iteration times [must be larger than 20]
+   * - resolution
+     - The resolution for the cell model selection with a value range from 0 to 1 [default: 0.6]
+   * - precomputed
+     - TriTan uses SVD to enhance the speed of factorization. When precomputed is set to False, TriTan will run the SVD factorization within the model. When precomputed is set to True, users can provide their own SVD factorization based on prior knowledge. [default: False]
    * - n_component
-     - When precomputed = False, you can define the number of the SVD components as:
+     - Specifies the number of components for SVD decomposition in the cell and feature spaces when precomputed is set to False. The number of components can be adjusted based on the dataset and corresponding singular value scree plots. The parameter allows for user-defined SVD decomposition for each modality.
        ::
            >>> svd = [#feature(mod1), #cell(mod1), #feature(mod2), #cell(mod2)]
    * - svd_mod1 & svd_mod2
