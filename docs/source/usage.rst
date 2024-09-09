@@ -43,7 +43,7 @@ Parameters
    * - Parameter
      - Description
    * - n_modality
-     - The number of the modalities
+     - The number of the modalities [default: 2]
    * - res_size
      - The resolution for the cell model selection with a value range from 0 to 1
    * - epoch
