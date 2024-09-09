@@ -43,27 +43,19 @@ Parameters
    * - Parameter
      - Description
    * - n_modality
-     - The number of the modalities [default: 2]
+     - The number of the modalities. [default: 2]
    * - resolution
-     - The resolution for the cell model selection with a value range from 0 to 1 [default: 0.6]
+     - The resolution for the cell model selection with a value range from 0 to 1. [default: 0.6]
    * - precomputed
-     - TriTan uses SVD to enhance the speed of factorization. When precomputed is set to False, TriTan will run the SVD factorization within the model. When precomputed is set to True, users can provide their own SVD factorization based on prior knowledge. [default: False]
-   * - n_component
-     - Specifies the number of components for SVD decomposition in the cell and feature spaces when precomputed is set to False. The number of components can be adjusted based on the dataset and corresponding singular value scree plots. The parameter allows for user-defined SVD decomposition for each modality.
-       ::
-           >>> svd = [#feature(mod1), #cell(mod1), #feature(mod2), #cell(mod2)]
-   * - svd_mod1 & svd_mod2
-     - When precomputed = True, the user should input their precomputed SVD matrices, for example:
+     - TriTan uses SVD to enhance the speed of factorization. When precomputed is set to False, TriTan will run the SVD factorization within the model. When precomputed is set to True, users can provide their own SVD factorization to save the time. [default: False]
+   * - svd_mods
+     - When precomputed is set to True, uses should use svd_mods to input their own svd factorization as the format of dictionary:
        ::
            >>> u_rna, s_rna, v_rna = randomized_svd(X_gene, n_components=300, random_state=0)
            >>> u_atac, s_atac, v_atac = randomized_svd(X_atac, n_components=300, random_state=0)
-           >>> rna=[u_rna, v_rna]
-           >>> atac=[u_atac, v_atac]
-           >>> svd=[50, 300, 50, 300]
-           >>> tritan = TriTan.TriTan(n_component=svd, precomputed=True, svd_mod1=rna, svd_mod2=atac)
-   * - tfidf
-     - TF-IDF transformation on input data
-   * - alpha
-     - When tfidf = False, users can input alpha to achieve scale balance across omics
+           >>> svd_mods = {'rna': [u_rna, v_rna], 'atac': [u_atac, v_atac]}
+   * - n_component
+     - Specifies the number of components for SVD decomposition in the cell and feature spaces for each modality. The number of components can be adjusted based on the dataset and corresponding singular value scree plots. The parameter allows for user-defined SVD decomposition for each modality. [default: {'rna': [20,50], 'atac': [20,50]}]
+
 
 
