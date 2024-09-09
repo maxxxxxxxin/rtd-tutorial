@@ -46,7 +46,7 @@ Parameters
      - The number of the modalities. [default: 2]
    * - resolution
      - The resolution for the cell model selection with a value range from 0 to 1. [default: 0.6]
-   * - precomputed
+   * - precomputed : bool, default=True
      - TriTan uses SVD to enhance the speed of factorization. When precomputed is set to False, TriTan will run the SVD factorization within the model. When precomputed is set to True, users can provide their own SVD factorization to save the time. [default: False]
    * - svd_mods
      - When precomputed is set to True, uses should use svd_mods to input their own svd factorization as the format of dictionary:
