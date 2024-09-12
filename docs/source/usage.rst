@@ -45,9 +45,6 @@ Parameters
    * - n_modality
      - int, (default=2). 
        The number of the modalities.
-   * - sparse
-     - , (default=2). 
-       The number of the modalities.
    * - resolution
      - float, (default=0.6). 
        The resolution parameter, ranging from 0 to 1, controls the granularity of the clusters. Specifically, it adjusts the size of the clusters:
