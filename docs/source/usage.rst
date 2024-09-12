@@ -62,7 +62,7 @@ Parameters
            >>> u_atac, s_atac, v_atac = randomized_svd(X_atac, n_components=300, random_state=0)
            >>> svd_mods = {'rna': [u_rna, v_rna], 'atac': [u_atac, v_atac]}
    * - n_component
-     - dic, (default: {'rna': [20,50], 'atac': [20,50]}). 
+     - dic, (default={'rna': [20,50], 'atac': [20,50]}). 
        Specifies the number of components for SVD decomposition in the cell and feature spaces for each modality. The number of components can be adjusted based on the dataset and corresponding singular value scree plots. The parameter allows for user-defined SVD decomposition for each modality. 
 
 
